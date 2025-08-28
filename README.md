@@ -8,3 +8,14 @@ This repository contains all scripts used for:
 - Forecasting evaluation: MAE, MSE, QLIKE.
 - Multi-step ahead VaR backtesting: Unconditional Coverage (UC) test, Independence (IND) test, Conditional Coverage (CC) test.
 - Empirical analysis on macroeconomic series (e.g., CPI, PPI, FX rates, etc.)
+
+## Repository Structure
+.
+├── Simulation.ipynb            # All-in-one script:
+│                               #   - Simulates GARCH data with Beta, Student-t, and Gaussian innovations
+│                               #   - Performs MLE/QMLE estimation and compares their performance
+│                               #   - Conducts multi-step volatility and VaR forecasts
+│── Macroeconomic indicators.ipynb  # Applies model to macroeconomic time series
+│
+├── README.md                   # Project overview and reproducibility instructions
+└── requirements.txt            # Python packages required for running the code
