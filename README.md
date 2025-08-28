@@ -16,6 +16,6 @@ This repository contains all scripts used for:
 │                               #   - Performs MLE/QMLE estimation and compares their performance
 │                               #   - Conducts multi-step volatility and VaR forecasts
 │── Macroeconomic indicators.ipynb  # Applies model to macroeconomic time series
-│
+│── RPI.csv                     # UK RPI data used in the empirical section
 ├── README.md                   # Project overview and reproducibility instructions
 └── requirements.txt            # Python packages required for running the code
